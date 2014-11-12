@@ -1,0 +1,105 @@
+
+/* ************************************************ */
+/* Generic Design Css: design.css */
+
+html, body, #body, #mainTable { height:100%; }      
+
+#body, #mainTable {
+	margin-left:auto;
+	margin-right:auto;
+}                               
+
+#mainTable {
+	background: url("../../../../designs/design615/color7/images/bgMenu.gif") 22px 0 repeat-y;
+}
+
+#menuAndContentCell {
+	background: url("../../../../designs/design615/color7/images/bgHeader.gif") repeat-x;
+}
+
+#logoCell {
+	background: url("../../../../designs/design615/color7/images/bgLogo.gif") top left no-repeat;
+}
+
+#menuCell {
+	background: url("../../../../designs/design615/color7/images/bgMenu.gif") repeat-y;
+}
+
+#contentMinWidth {
+	width: 540px;
+}
+
+#contentBottom, #companyAndEmail {
+	background: url("../../../../designs/design615/color7/images/bgCopyright.gif") repeat;
+}
+
+#contentBottom {
+	padding-left: 350px;
+}
+
+#footerBottom {
+	background: url("../../../../designs/design615/color7/images/bgBottom.gif") repeat;
+	padding-left: 330px;
+}
+
+#shadowleft {
+	background: #ffffff url("../../../../designs/design615/color7/images/shadow-left.png") repeat-y;
+}
+
+#shadowright {
+	background: #ffffff url("../../../../designs/design615/color7/images/shadow-right.png") repeat-y;
+}
+
+/* ************************************************ */
+/* Design Css for Color: color.css */
+
+/* td,p { font-size:12px;color:#000000; } */
+.bot { font-size:12px;color:#F8F7E4;margin-top:5px;margin-left:15px;margin-right:15px;margin-bottom:20px; }
+
+
+
+
+/* ************************************************ */
+/* Custom Css Part */
+
+html {
+    overflow:auto;
+}
+body {
+    background: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+* html body { height: 100%; width: 100%; overflow:auto; }
+#body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: #000000;
+    background: #FFFFFF;
+    display: table;
+}
+* html #body { height: 100%; width: 100%; overflow:auto; }
+#body td {font-size: 12px;font-family: Arial, Helvetica, sans-serif;color: #000000;}
+#body .bot, #body .bot td, #body .bot p, #body div .bot #totop, #body td .bot #totop{
+font-family: Arial, Helvetica, sans-serif;font-size: 12px;color: #F8F7E4;
+}
+p {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+#body a, #body a:visited, #body a.pager, #body a.pager:visited {
+color: #6e00c2;
+    text-decoration: underline;
+}
+#body a.totop, #body a.totop:visited, #body a.totop:hover {
+    color: #6e00c2;
+    text-decoration: none;
+}
+#body a:hover, #body a.pager:hover {
+    text-decoration: underline;
+}
+#body .sitemapTable a, #body .sitemapTable a:visited {
+text-decoration: underline;
+}
+object.videoObject {display: none;}*+html object.videoObject {display: block;}* html object.videoObject {display: block;}embed.videoEmbed {display: block;}*+html embed.videoEmbed {display: none;}* html embed.videoEmbed {display: none;}
